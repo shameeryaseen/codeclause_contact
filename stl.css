@@ -1,0 +1,98 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Foldit', cursive;
+    background: linear-gradient(122.3deg, rgb(111, 71, 133) 14.6%, rgb(232, 129, 166) 29.6%, rgb(237, 237, 183) 42.1%, rgb(244, 166, 215) 56.7%, rgb(154, 219, 232) 68.7%, rgb(238, 226, 159) 84.8%);
+}
+.contact-form{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:90%;
+    max-width:400px;
+    background:#c9a6c6;
+    padding:20px 30px;
+    box-shadow:0px 5px 10px rgba(14, 2, 2, 0.977);
+    border-radius: 5px;
+}
+.contact-form .form-title{
+     font-family: 'Foldit', cursive;
+    text-align:center;
+    font-size:20px;
+    border-radius: 5px;
+
+    font-weight:600;
+    margin: 20px 0px 20px;
+    border-radius: 5px;
+
+    color:#000000;   
+}
+.contact-form .form-input{
+    margin:5apx 0px;
+    border-radius: 5px;
+
+}
+.contact-form .form-input label 
+.contact-form .captcha label {
+    display:block;
+    font-size:15px;
+    color:#e31616;
+    margin-bottom:5px;
+    border-radius: 5px;
+
+}
+.contact-form .form-input input{
+    width:100%;
+    padding:10px;
+    border-radius:5px solid #171414;
+    font-size:15px;
+}
+.contact-form .captcha {
+    margin:15px 0px;
+}
+.contact-form .captcha .preview{
+    color:#555;
+    width:100%;
+    text-align:center;
+    height: 40px;
+    line-height:40px;
+    letter-spacing:8px;
+    border-radius:4px dashed #140d0d;
+    font-family:"monospace";
+}
+.contact-form .captcha .preview span{
+        display:inline-block;
+        user-select:none;
+}
+.contact-form .captcha .captcha-form{
+    display:flex;
+}
+.contact-form .captcha .captch-form input{
+    width:100%;
+    padding:0px;
+    border-radius:10x solid #a19f9f;
+}
+.contact-form .captcha .captcha-form .captcha-refresh {
+    width:40px;
+    border-radius:3px;
+    outline:none;
+    background:#787676;
+    color:#eee;
+    cursor:pointer;
+}
+.contact-form #submit-btn{
+    margin-top:5px;
+    width:100%;
+    padding:10px;
+    border-radius:5px;
+    outline:none;
+    font-size:10px;
+    text-transform:10px;
+    background:#2bcb22;
+    color:#f6f3f3;
+    cursor:pointer;
+}
